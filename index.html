@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="./src/images/23.jpg">
+    <title>memoryGameBs</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+    <div class="time">
+        <span class="RegresiveSeconds"></span>
+        <div class="time_load"></div>
+    </div>
+
+    <div class="container">
+        <div class="cards"></div>
+    </div>
+
+    <div class="optionsChrono">
+        <span class='opt' id="seconds_20">20 s</span>
+        <span class='opt' id="seconds_40">40 s</span>
+        <span class='opt' id="seconds_60">60 s</span>
+        <span class='opt' id="seconds_80">80 s</span>
+        <span class='opt' id="seconds_100">100 s</span>
+        <span class='opt' id="seconds_150">150 s</span>
+        <span class='opt' id="seconds_200">200 s</span>
+    </div>
+
+    <div class="optionsConfig">
+        <span class='opt' id="config_4">4 x 4</span>
+        <span class='opt' id="config_6">6 x 6</span>
+        <span class='opt' id="config_8">8 x 8</span>
+    </div>
+
+    <div class="boxSettings">
+        <i class='bx bxs-stopwatch' id="chronomether"></i>
+        <i class='bx bx-cog' id="config"></i>
+        <div class="componentTheme">
+            <div class="ball"></div>
+            <i class='bx bx-sun'></i>
+            <i class='bx bx-moon'></i>
+        </div>
+
+    </div>
+
+
+    <script src="./main.js" type="module"></script>
+</body>
+
+</html>
